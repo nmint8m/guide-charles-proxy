@@ -2,11 +2,6 @@
 
 *Written by __Nguyen Minh Tam__*
 
-> __Note:__
->> Reading [Charles Guide - Install][Charles Guide EN Version] with English version.
->> 
->> Reading [Charles Guide - Usage][Charles Guide EN Version] with English version.
-
 Nếu bạn là một mobile developer, mình khá chắc là bạn đã từng gặp qua tình huống éo le `vỡ UI` ít nhất một lần trong đời. `Vỡ UI` thường được bắt gặp khi mà bạn có một cái text, nội dung của cái text này được lấy bằng cách truy xuất database, hoặc từ kết quả mà API trả về. Cơ mà bạn lại quên mất việc kiểm tra UI khi nội dung cái text này dài ra trên các màn hình khác nhau, dẫn tới hậu quả UI của bạn banh chè.
 
 Mục đích của bài viết này giúp các bạn làm quen với một tool rất chy là bá đạo, cân từ debugging đến testing. 
@@ -33,7 +28,7 @@ Và cái tool thần thánh được nhắc đến trong bài viết này chính
 
 Để cài đặt Charles cần:
 
-- Truy cập vào đường link [https://www.charlesproxy.com][Download] và download file installer về máy.
+- Truy cập vào đường link [https://www.charlesproxy.com](https://www.charlesproxy.com/download/) và download file installer về máy.
 
 <center>
 	<img src="./Images/img-install1.png" height="300"/>
@@ -67,13 +62,13 @@ Phần set up Charles và môi trường là phần vô cùng quan trọng. Nế
 
 Để giúp bạn có thể kiểm tra liệu mình đã set up đúng chưa, thì sau đây là checklist các bước mình sử dụng:
 
-- [ ] Config Proxy
-	- [ ] Bật macOS Proxy cho Charles
-	- [ ] Config proxy cho device
-- [ ] Config Configuring SSL Proxying Certificates
-	- [ ] Thêm Charles CA Certificate cho máy mac
-	- [ ] Bật SSL Proxy cho máy mac và cài đặt SSL host name
-	- [ ] Bật trust SSL Certìicate cho device/simulator
+- [x] Config Proxy
+	- [x] Bật macOS Proxy cho Charles
+	- [x] Config proxy cho device
+- [x] Config Configuring SSL Proxying Certificates
+	- [x] Thêm Charles CA Certificate cho máy mac
+	- [x] Bật SSL Proxy cho máy mac và cài đặt SSL cho tất cả host name
+	- [x] Bật trust SSL Certìicate cho device/simulator
 
 ### Config Proxy
 
@@ -247,18 +242,20 @@ __Đối với iOS Simulator__
 	<img src="./Images/img-config-simu3.png" height="500">
 </center>
 
+Nhắc lại checklist lần nữa để các bạn không quên:
+
+- [x] Config Proxy
+	- [x] Bật macOS Proxy cho Charles
+	- [x] Config proxy cho device
+- [x] Config Configuring SSL Proxying Certificates
+	- [x] Thêm Charles CA Certificate cho máy mac
+	- [x] Bật SSL Proxy cho máy mac và cài đặt SSL cho tất cả host name
+	- [x] Bật trust SSL Certìicate cho device/simulator
+
+Phía trên là các bước cài đặt môi trường làm việc cùng Charles. Hi vọng mọi người đã biết được một vài kiến thức hữu ích khi đọc tài liệu này. Ủng hộ mình một ⭐️ để có thêm động lực viết bài nhé! Cảm ơn mọi người. 🎉
+
 ### Reference
 
-Đọc tiếp [Charles Guide - Usage][Charles Guide - Usage].
+Đọc tiếp [Hướng dẫn sử dụng Charles](./CharlesGuide-Usage.md) 🗒
 
-Reading [Charles Guide - Install][Charles Guide EN Version] with English version.
-
-Reading [Charles Guide - Usage][Charles Guide EN Version] with English version.
-
----
-
-[Charles Guide - Usage]: ./README-VN-Usage.md "Charles Guide - Usage VI Version"
-
-[Charles Guide EN Version]: ./README.md "Charles Guide EN Version"
-
-[Download]: https://www.charlesproxy.com/download/
+Quay lại [Charles Guide](https://github.com/nmint8m/charlesguide) <img src="./Images/img-icon.png" height ="15">

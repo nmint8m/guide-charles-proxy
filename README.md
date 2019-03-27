@@ -1,20 +1,18 @@
-## Charles Guide
+# <img src="./Images/img-icon.png" height ="30"> Charles Guide
 
-*Written by __Nguyen Minh Tam__*
+_Written by **Nguyen Minh Tam**_
 
+Tài liệu này đề cập đến cách **cài đặt**, những **chức năng cơ bản** và thường được sử dụng nhất của Charles. Hi vọng mọi người sẽ tìm được những kiến thức hữu ích khi đọc tài liệu này. 👍
 
+<center>
+<img src="./Images/img-icon.png" height ="70">
+</center>
 
-Reading Vietnamese version right [here][Charles Guide VN Version]
+## Tài liệu hướng dẫn:
 
+- [Hướng dẫn cài đặt Charles](./CharlesGuide-Install.md) 🔧
 
+- [Hướng dẫn sử dụng Charles](./CharlesGuide-Usage.md) 🗒
 
-### Reference
+Ủng hộ mình một ⭐️ để có thêm động lực viết bài nhé! Cảm ơn mọi người. 🎉
 
-Đọc tiếp hướng dẫn [Charles Guide - Install][Charles Guide - Install VN Version] tiếng Việt.
-
-Đọc tiếp hướng dẫn [Charles Guide - Install][Charles Guide - Usage VN Version] tiếng Việt.
-
----
-
-[Charles Guide - Install VN Version]: ./README-VN-Install.md "Charles Guide - Install VN Version"
-[Charles Guide - Usage VN Version]: ./README-VN-Usage.md "Charles Guide - Usage VN Version"
