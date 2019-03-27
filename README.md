@@ -10,9 +10,11 @@ Tài liệu này đề cập đến cách **cài đặt**, những **chức năn
 
 ## Tài liệu hướng dẫn:
 
-- [Hướng dẫn cài đặt Charles](./CharlesGuide-Install.md) 🔧
+- [x] [Hướng dẫn cài đặt Charles](./CharlesGuide-Install.md) 🔧
 
-- [Hướng dẫn sử dụng Charles](./CharlesGuide-Usage.md) 🗒
+- [x] [Hướng dẫn sử dụng Charles](./CharlesGuide-Usage.md) 🗒
+
+- [ ] [Demo debugging an iOS app with dummy data from Charles]() 🐞
 
 Ủng hộ mình một ⭐️ để có thêm động lực viết bài nhé! Cảm ơn mọi người. 🎉
 
