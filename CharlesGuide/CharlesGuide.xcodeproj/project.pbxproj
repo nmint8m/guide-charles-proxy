@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		229581532259D43A00B1343B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229581522259D43A00B1343B /* LaunchScreen.storyboard */; };
+		229581562259D5A300B1343B /* ChecklistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229581542259D5A300B1343B /* ChecklistVC.swift */; };
+		229581572259D5A300B1343B /* ChecklistVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229581552259D5A300B1343B /* ChecklistVC.xib */; };
+		2295815C2259DF6B00B1343B /* PokemonListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2295815A2259DF6B00B1343B /* PokemonListVC.swift */; };
+		2295815D2259DF6B00B1343B /* PokemonListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2295815B2259DF6B00B1343B /* PokemonListVC.xib */; };
+		229581692259E00700B1343B /* ChecklistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229581672259E00700B1343B /* ChecklistCell.swift */; };
+		2295816A2259E00700B1343B /* ChecklistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229581682259E00700B1343B /* ChecklistCell.xib */; };
+		22C094D42259F6F800EFED9D /* APIPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C094D32259F6F800EFED9D /* APIPath.swift */; };
+		22C094D62259F70300EFED9D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C094D52259F70300EFED9D /* APIService.swift */; };
 		22E4AD9522361C2100164CE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E4AD9422361C2100164CE0 /* AppDelegate.swift */; };
 		22E4AD9C22361C2400164CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E4AD9B22361C2400164CE0 /* Assets.xcassets */; };
-		22E4ADA822361C5D00164CE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E4ADA622361C5C00164CE0 /* ViewController.swift */; };
-		22E4ADA922361C5D00164CE0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E4ADA722361C5C00164CE0 /* ViewController.xib */; };
+		DC890A6963AFE115DC731D9A /* Pods_CharlesGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83553143EBC88C79029F136A /* Pods_CharlesGuide.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		229581522259D43A00B1343B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		229581542259D5A300B1343B /* ChecklistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistVC.swift; sourceTree = "<group>"; };
+		229581552259D5A300B1343B /* ChecklistVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChecklistVC.xib; sourceTree = "<group>"; };
+		2295815A2259DF6B00B1343B /* PokemonListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListVC.swift; sourceTree = "<group>"; };
+		2295815B2259DF6B00B1343B /* PokemonListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonListVC.xib; sourceTree = "<group>"; };
+		229581672259E00700B1343B /* ChecklistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistCell.swift; sourceTree = "<group>"; };
+		229581682259E00700B1343B /* ChecklistCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChecklistCell.xib; sourceTree = "<group>"; };
+		22C094D32259F6F800EFED9D /* APIPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPath.swift; sourceTree = "<group>"; };
+		22C094D52259F70300EFED9D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		22E4AD9122361C2100164CE0 /* CharlesGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharlesGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E4AD9422361C2100164CE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22E4AD9B22361C2400164CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22E4ADA022361C2400164CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22E4ADA622361C5C00164CE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		22E4ADA722361C5C00164CE0 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		3091CF309803E9A527B71F24 /* Pods-CharlesGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharlesGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-CharlesGuide/Pods-CharlesGuide.release.xcconfig"; sourceTree = "<group>"; };
+		83553143EBC88C79029F136A /* Pods_CharlesGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CharlesGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		855A86287F5C3FF8EB4C681B /* Pods-CharlesGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CharlesGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CharlesGuide/Pods-CharlesGuide.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +45,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC890A6963AFE115DC731D9A /* Pods_CharlesGuide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		229581582259DF2600B1343B /* CheckList */ = {
+			isa = PBXGroup;
+			children = (
+				2295815E2259DF9700B1343B /* Cell */,
+				229581542259D5A300B1343B /* ChecklistVC.swift */,
+				229581552259D5A300B1343B /* ChecklistVC.xib */,
+			);
+			path = CheckList;
+			sourceTree = "<group>";
+		};
+		229581592259DF4F00B1343B /* PokemonList */ = {
+			isa = PBXGroup;
+			children = (
+				2295815A2259DF6B00B1343B /* PokemonListVC.swift */,
+				2295815B2259DF6B00B1343B /* PokemonListVC.xib */,
+			);
+			path = PokemonList;
+			sourceTree = "<group>";
+		};
+		2295815E2259DF9700B1343B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				229581672259E00700B1343B /* ChecklistCell.swift */,
+				229581682259E00700B1343B /* ChecklistCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		22C094D22259F6CA00EFED9D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				22C094D32259F6F800EFED9D /* APIPath.swift */,
+				22C094D52259F70300EFED9D /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		22E4AD8822361C2100164CE0 = {
 			isa = PBXGroup;
 			children = (
 				22E4AD9322361C2100164CE0 /* CharlesGuide */,
 				22E4AD9222361C2100164CE0 /* Products */,
+				2E07D2D771D986F42442D12D /* Pods */,
+				D0C28807BAB3E6E35F7B3412 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,13 +110,32 @@
 		22E4AD9322361C2100164CE0 /* CharlesGuide */ = {
 			isa = PBXGroup;
 			children = (
+				22C094D22259F6CA00EFED9D /* Service */,
+				229581592259DF4F00B1343B /* PokemonList */,
+				229581582259DF2600B1343B /* CheckList */,
 				22E4AD9422361C2100164CE0 /* AppDelegate.swift */,
 				22E4AD9B22361C2400164CE0 /* Assets.xcassets */,
 				22E4ADA022361C2400164CE0 /* Info.plist */,
-				22E4ADA622361C5C00164CE0 /* ViewController.swift */,
-				22E4ADA722361C5C00164CE0 /* ViewController.xib */,
+				229581522259D43A00B1343B /* LaunchScreen.storyboard */,
 			);
 			path = CharlesGuide;
+			sourceTree = "<group>";
+		};
+		2E07D2D771D986F42442D12D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				855A86287F5C3FF8EB4C681B /* Pods-CharlesGuide.debug.xcconfig */,
+				3091CF309803E9A527B71F24 /* Pods-CharlesGuide.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0C28807BAB3E6E35F7B3412 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83553143EBC88C79029F136A /* Pods_CharlesGuide.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22E4ADA322361C2400164CE0 /* Build configuration list for PBXNativeTarget "CharlesGuide" */;
 			buildPhases = (
+				E3F2FF138B599D64C47AE19A /* [CP] Check Pods Manifest.lock */,
 				22E4AD8D22361C2100164CE0 /* Sources */,
 				22E4AD8E22361C2100164CE0 /* Frameworks */,
 				22E4AD8F22361C2100164CE0 /* Resources */,
+				C4FA06F8491C0F374B3454AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -119,19 +198,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E4ADA922361C5D00164CE0 /* ViewController.xib in Resources */,
+				229581532259D43A00B1343B /* LaunchScreen.storyboard in Resources */,
+				2295815D2259DF6B00B1343B /* PokemonListVC.xib in Resources */,
 				22E4AD9C22361C2400164CE0 /* Assets.xcassets in Resources */,
+				2295816A2259E00700B1343B /* ChecklistCell.xib in Resources */,
+				229581572259D5A300B1343B /* ChecklistVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4FA06F8491C0F374B3454AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CharlesGuide/Pods-CharlesGuide-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CharlesGuide/Pods-CharlesGuide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3F2FF138B599D64C47AE19A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CharlesGuide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22E4AD8D22361C2100164CE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22E4ADA822361C5D00164CE0 /* ViewController.swift in Sources */,
+				229581692259E00700B1343B /* ChecklistCell.swift in Sources */,
+				22C094D42259F6F800EFED9D /* APIPath.swift in Sources */,
+				2295815C2259DF6B00B1343B /* PokemonListVC.swift in Sources */,
+				229581562259D5A300B1343B /* ChecklistVC.swift in Sources */,
+				22C094D62259F70300EFED9D /* APIService.swift in Sources */,
 				22E4AD9522361C2100164CE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +394,7 @@
 		};
 		22E4ADA422361C2400164CE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855A86287F5C3FF8EB4C681B /* Pods-CharlesGuide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -266,7 +404,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.nmint8m.CharlesGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nmint8m.charlesguide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -275,6 +413,7 @@
 		};
 		22E4ADA522361C2400164CE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3091CF309803E9A527B71F24 /* Pods-CharlesGuide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -284,7 +423,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.nmint8m.CharlesGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.nmint8m.charlesguide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
