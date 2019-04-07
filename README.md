@@ -14,7 +14,7 @@ Tài liệu này đề cập đến cách **cài đặt**, những **chức năn
 
 - [x] [Hướng dẫn sử dụng Charles](./CharlesGuide-Usage.md) 🗒
 
-- [ ] [Demo debugging an iOS app with dummy data from Charles]() 🐞
+- [x] [Demo debugging an iOS app with dummy data from Charles](./CharlesGuide-Example.md) 🐞
 
 Ủng hộ mình một ⭐️ để có thêm động lực viết bài nhé! Cảm ơn mọi người. 🎉
 
