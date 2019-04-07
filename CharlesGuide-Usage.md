@@ -19,9 +19,8 @@ _Written by **Nguyen Minh Tam**_
 ### Application Interface
 
 <center>
-	<img src="./Images/img-interface.png" height="70">
+	<img src="./Images/img-interface.png" height="400">
 </center>
-
 
 Các nút thông dụng: 
 
@@ -75,7 +74,7 @@ Bước này dùng để lọc ra những thứ mà chúng ta sẽ record lại 
 - Chọn tab **Include**
 - Thêm Locations. 
 
-> Thường thì mình chỉ thêm host vào đối với Record settings, còn path/query thì mình hay đặt trong Breakpoint setting. Còn protocol/port/query thì mình để trống, và chỉ quan tâm nó khi debug request. Mình sẽ nói rõ hơn ở phía dưới.
+> **My note:** Thường thì mình chỉ thêm host vào đối với Record settings, còn path/query thì mình hay đặt trong Breakpoint setting. Còn protocol/port/query thì mình để trống, và chỉ quan tâm nó khi debug request. Mình sẽ nói rõ hơn ở phía dưới.
 
 <center>
 	<img src="./Images/img-record1.png" height="200">
@@ -90,9 +89,9 @@ Bước này dùng để lọc ra những thứ mà chúng ta sẽ record lại 
 	<br>
 </center>
 
-> Note: Nếu như bạn không thấy trên Charles hiển thị request mà bạn đang debug, thì rất có thể bạn đã nhầm hoặc miss location ở bước này.
+> **My note:** Nếu như bạn không thấy trên Charles hiển thị request mà bạn đang debug, thì rất có thể bạn đã nhầm hoặc miss location ở bước này. Nhớ kiểm tra lại bạn đã add host bạn cần và check nó chưa nhé. 💣💣💣
 
-Vậy là xong phần config cơ bản, tiếp theo đây chúng ta sẽ nói về cách debug cùng Breakpoint và Throttle settings. Trước khi debug với một web/ios/android app, bạn cần phải cài đặt môi trường và cài certificate đầy đủ. Đọc cài đặt môi trường debug cho iOS app tại [đây][./CharlesGuide-Install.md]
+Vậy là xong phần config cơ bản, tiếp theo đây chúng ta sẽ nói về cách debug cùng Breakpoint và Throttle settings. Trước khi debug với một web/ios/android app, bạn cần phải cài đặt môi trường và cài certificate đầy đủ. Đọc cài đặt môi trường debug cho iOS app tại [đây](./CharlesGuide-Install.md)
 
 Check list:
  
@@ -102,7 +101,7 @@ Check list:
 - [x] Config Configuring SSL Proxying Certificates
 	- [x] Thêm Charles CA Certificate cho máy mac
 	- [x] Bật SSL Proxy cho máy mac và cài đặt SSL cho tất cả host name
-	- [x] Bật trust SSL Certìicate cho device/simulator
+	- [x] Bật trust SSL Certificate cho device/simulator
 
 Phần đầu tiên, ta sẽ học cách đặt breakpoint.
 
@@ -110,7 +109,7 @@ Phần đầu tiên, ta sẽ học cách đặt breakpoint.
 
 - Vào **Proxy > Breakpoint Settings...**
 - Thêm breakpoint:
-	- Adding host: Vì mình đã cài đặt trong `Recording setting` ở phía trên rồi, nên ở bước này có thể bỏ qua.
+	- Adding host: Vì mình đã cài đặt trong `Recording setting` ở phía trên rồi, nên ở bước này có thể bỏ qua. Nếu bạn điển phần này, thì nhớ phải check lại trong Recording Setting xem host bạn điền đã được add và check chưa.
   	- Adding path: `v1/item/search`
   	- Add query: `name=somename` Có thể để trống bước này
 	- Check breakpoints: `request/response`
