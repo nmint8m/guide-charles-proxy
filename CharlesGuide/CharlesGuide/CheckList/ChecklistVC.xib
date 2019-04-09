@@ -21,17 +21,20 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check list:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNw-hk-Eeb">
-                    <rect key="frame" x="15" y="20" width="345" height="30"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="30" id="bek-4Z-3Cr"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Checklist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edb-OJ-Ujq">
+                    <rect key="frame" x="15" y="30" width="81.5" height="23"/>
+                    <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="20"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vuốt sang phải để tiếp tục check →" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2S-1z-u9u">
+                    <rect key="frame" x="106.5" y="37.5" width="187" height="14"/>
+                    <fontDescription key="fontDescription" name="Georgia-Italic" family="Georgia" pointSize="12"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="1dS-AS-ZVS">
-                    <rect key="frame" x="0.0" y="65" width="375" height="602"/>
+                    <rect key="frame" x="0.0" y="68" width="375" height="599"/>
                     <color key="backgroundColor" red="0.57626579349999996" green="0.15660245349999999" blue="0.13501287910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="y0Q-vU-Cu8">
                         <size key="itemSize" width="50" height="50"/>
@@ -43,12 +46,14 @@
             </subviews>
             <color key="backgroundColor" red="0.57626579349999996" green="0.15660245349999999" blue="0.13501287910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="1dS-AS-ZVS" firstAttribute="top" secondItem="aNw-hk-Eeb" secondAttribute="bottom" constant="15" id="3OK-3B-C2z"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="1dS-AS-ZVS" secondAttribute="bottom" id="B6L-Pp-eD2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="c2S-1z-u9u" secondAttribute="trailing" constant="15" id="Gq0-td-u2n"/>
                 <constraint firstItem="1dS-AS-ZVS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KUV-ep-xaZ"/>
-                <constraint firstItem="aNw-hk-Eeb" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="UfA-m4-Ek3"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aNw-hk-Eeb" secondAttribute="trailing" constant="15" id="dgx-eD-MfU"/>
-                <constraint firstItem="aNw-hk-Eeb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="rFT-d6-dKJ"/>
+                <constraint firstItem="edb-OJ-Ujq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="15" id="Viz-CG-Nzi"/>
+                <constraint firstItem="edb-OJ-Ujq" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="ZaZ-4u-vyl"/>
+                <constraint firstItem="c2S-1z-u9u" firstAttribute="firstBaseline" secondItem="edb-OJ-Ujq" secondAttribute="firstBaseline" id="ekQ-Cg-qaC"/>
+                <constraint firstItem="1dS-AS-ZVS" firstAttribute="top" secondItem="edb-OJ-Ujq" secondAttribute="bottom" constant="15" id="fFt-lT-1TP"/>
+                <constraint firstItem="c2S-1z-u9u" firstAttribute="leading" secondItem="edb-OJ-Ujq" secondAttribute="trailing" constant="10" id="rJi-2v-Adx"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1dS-AS-ZVS" secondAttribute="trailing" id="v7v-lZ-9oO"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

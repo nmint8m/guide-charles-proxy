@@ -15,6 +15,11 @@ protocol ChecklistCellDelegate: class {
 final class ChecklistCell: UICollectionViewCell {
 
     weak var delegate: ChecklistCellDelegate?
+    var viewModel = ChecklistCellViewModel() {
+        didSet {
+            configCell()
+        }
+    }
 
     @IBOutlet private weak var imageView: UIImageView!
     @IBOutlet private weak var titleLabel: UILabel!
@@ -23,14 +28,13 @@ final class ChecklistCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-
     }
 
-    func configCell(image: UIImage?, title: String, subtitle: String, isLastCell: Bool) {
-        imageView.image = image
-        titleLabel.text = title
-        subtitleLabel.text = subtitle
-        startButton.isHidden = !isLastCell
+    func configCell() {
+        imageView.image = viewModel.image
+        titleLabel.text = viewModel.title
+        subtitleLabel.text = viewModel.subtitle
+        startButton.setTitle(viewModel.buttonString, for: .normal)
     }
 
     @IBAction func startButtonTouchUpInside(_ sender: Any) {

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="174" id="KGk-i7-Jjw" customClass="PokemonCell" customModule="CharlesGuide" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="462" height="174"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="462" height="173.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jgu-rF-6qG">
+                        <rect key="frame" x="15" y="5" width="432" height="80"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img-pokemon-ball" translatesAutoresizingMaskIntoConstraints="NO" id="IPT-Oa-Hzl">
+                                <rect key="frame" x="15" y="15" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="6JP-ay-X46"/>
+                                    <constraint firstAttribute="width" constant="50" id="cDQ-XH-vUH"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="V4H-vP-TF1">
+                                <rect key="frame" x="80" y="25" width="337" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokemon name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtd-Va-zBC">
+                                        <rect key="frame" x="0.0" y="0.0" width="337" height="17.5"/>
+                                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokemon URL" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="353-rx-A6L">
+                                        <rect key="frame" x="0.0" y="17.5" width="337" height="12.5"/>
+                                        <fontDescription key="fontDescription" name="Georgia-Italic" family="Georgia" pointSize="11"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="V4H-vP-TF1" firstAttribute="centerY" secondItem="Jgu-rF-6qG" secondAttribute="centerY" id="9vs-8H-gH5"/>
+                            <constraint firstItem="IPT-Oa-Hzl" firstAttribute="centerY" secondItem="Jgu-rF-6qG" secondAttribute="centerY" id="FFQ-li-xhW"/>
+                            <constraint firstAttribute="bottom" secondItem="IPT-Oa-Hzl" secondAttribute="bottom" constant="15" id="Lsb-zC-zeR"/>
+                            <constraint firstAttribute="trailing" secondItem="V4H-vP-TF1" secondAttribute="trailing" constant="15" id="cjk-UV-UlJ"/>
+                            <constraint firstItem="IPT-Oa-Hzl" firstAttribute="leading" secondItem="Jgu-rF-6qG" secondAttribute="leading" constant="15" id="nUt-uR-BLk"/>
+                            <constraint firstItem="IPT-Oa-Hzl" firstAttribute="top" secondItem="Jgu-rF-6qG" secondAttribute="top" constant="15" id="tXz-8s-oa6"/>
+                            <constraint firstItem="V4H-vP-TF1" firstAttribute="leading" secondItem="IPT-Oa-Hzl" secondAttribute="trailing" constant="15" id="vQO-dm-h8k"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.57626579349999996" green="0.15660245349999999" blue="0.13501287910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Jgu-rF-6qG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="BL8-Ns-Icx"/>
+                    <constraint firstItem="Jgu-rF-6qG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Lc9-3i-kLf"/>
+                    <constraint firstAttribute="trailing" secondItem="Jgu-rF-6qG" secondAttribute="trailing" constant="15" id="NbX-XV-9MN"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Jgu-rF-6qG" secondAttribute="bottom" constant="5" id="UB6-xk-TTe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="Jgu-rF-6qG" id="pMz-1Q-AsJ"/>
+                <outlet property="nameLabel" destination="dtd-Va-zBC" id="9dS-i7-BZu"/>
+                <outlet property="urlLabel" destination="353-rx-A6L" id="3AZ-2J-IHG"/>
+            </connections>
+            <point key="canvasLocation" x="147.19999999999999" y="130.43478260869566"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="img-pokemon-ball" width="277.92001342773438" height="277.44000244140625"/>
+    </resources>
+</document>

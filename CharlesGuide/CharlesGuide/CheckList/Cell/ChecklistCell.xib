@@ -19,16 +19,16 @@
                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJp-SS-jBe">
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJp-SS-jBe">
                         <rect key="frame" x="142.5" y="612" width="90" height="40"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="90" id="Fnn-1Z-NZF"/>
                             <constraint firstAttribute="height" constant="40" id="eMf-cc-tNm"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="12"/>
                         <color key="tintColor" red="0.57626579349999996" green="0.15660245349999999" blue="0.13501287910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <state key="normal" title="Start!">
+                        <state key="normal" title="Bắt đầu">
                             <color key="titleColor" red="0.57626579349999996" green="0.15660245349999999" blue="0.13501287910000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </state>
                         <connections>
@@ -36,17 +36,17 @@
                         </connections>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6N-SM-LMM">
-                        <rect key="frame" x="15" y="553" width="345" height="19.5"/>
-                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="15"/>
+                        <rect key="frame" x="15" y="562" width="345" height="17.5"/>
+                        <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="15"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KUG-xE-ItA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="538"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="547"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subtitle" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ou4-gb-aeT">
-                        <rect key="frame" x="15" y="577.5" width="345" height="19.5"/>
-                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                        <rect key="frame" x="15" y="584.5" width="345" height="12.5"/>
+                        <fontDescription key="fontDescription" name="Georgia-Italic" family="Georgia" pointSize="11"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
