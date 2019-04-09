@@ -11,7 +11,7 @@ import Foundation
 final class PokemonListViewModel {
 
     var listResult = ListResultPokemon()
-    var currentURLString = API.Path.Pokemon.pokemon
+    var currentURLString = API.Path.Pokemon.pokemon + "?offset=0&limit=20"
 
     var status: String {
         if listResult.count == 0 {

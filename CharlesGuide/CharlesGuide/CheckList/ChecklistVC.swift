@@ -59,12 +59,7 @@ extension ChecklistVC: UICollectionViewDataSource, UICollectionViewDelegateFlowL
 
 extension ChecklistVC: ChecklistCellDelegate {
     func cell(_ cell: ChecklistCell, perform action: ChecklistCell.Action) {
-        present(PokemonListVC(), animated: true, completion: nil)
+        let vc = PokemonListVC()
+        present(vc, animated: true, completion: nil)
     }
-}
-
-extension ChecklistVC {
-
-
-
 }
