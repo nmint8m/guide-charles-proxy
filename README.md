@@ -18,3 +18,7 @@ Tài liệu này đề cập đến cách **cài đặt**, những **chức năn
 
 Ủng hộ mình một ⭐️ để có thêm động lực viết bài nhé! Cảm ơn mọi người. 🎉
 
+|<img src="./Images/img-ex6.png" height ="400">|
+|---|
+|<img src="./Images/img-ex2.png" height ="400">|
+|<img src="./Images/img-ex5.png" height ="400">         <img src="./Images/img-ex7.png" height ="400">|
