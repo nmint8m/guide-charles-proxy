@@ -49,9 +49,26 @@ final class PokemonListVC: UIViewController {
     private func loadData(pageType: PokemonListViewModel.PageType) {
         viewModel.getListPokemon(pageType: pageType) { [weak self] (result) in
             guard let this = self else { return }
-            this.tableView.reloadData()
-            this.configStatusLabel()
-            this.configButtons()
+            switch result {
+            case .success:
+                this.tableView.reloadData()
+                this.configStatusLabel()
+                this.configButtons()
+            case .failure(let error):
+                let alert = UIAlertController(title: "Error",
+                                              message: "Error happened with code: \(error.code)",
+                    preferredStyle: .alert)
+                let action = UIAlertAction(title: "OK",
+                                           style: .default,
+                                           handler:
+                    { _ in
+                        this.loadData(pageType: .current)
+                })
+                alert.addAction(action)
+                this.present(alert,
+                             animated: true,
+                             completion: nil)
+            }
         }
     }
 

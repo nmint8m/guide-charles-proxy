@@ -160,4 +160,6 @@ Phía trên là những chức năng cơ bản và thường được sử dụn
 
 Đọc lại [Hướng dẫn cài đặt Charles](./CharlesGuide-Install.md) 🔧
 
+Đọc tiếp [Demo debugging an iOS app with dummy data from Charles](./CharlesGuide-Example.md) 🐞
+
 Quay lại [Charles Guide](https://github.com/nmint8m/charlesguide) <img src="./Images/img-icon.png" height ="15">

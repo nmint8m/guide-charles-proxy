@@ -149,6 +149,9 @@ extension Request {
 // MARK: - Xử lý error
 extension Error {
     public var code: Int {
+        if let this = self as? API.Errors {
+            return this.code
+        }
         let this = self as NSError
         return this.code
     }
